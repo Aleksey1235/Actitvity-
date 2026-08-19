@@ -1,0 +1,15 @@
+[project]
+name = "family-activity-bot"
+version = "1.4.0"
+description = "Discord bot for GTA 5 RP family activity analytics without personal points"
+requires-python = ">=3.11"
+dependencies = [
+  "discord.py==2.7.1",
+  "python-dotenv>=1.0,<2.0",
+  "matplotlib>=3.9,<4.0",
+  "tzdata>=2025.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
